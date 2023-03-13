@@ -63,7 +63,7 @@ export default function Home(params) {
       </div>
       <div className="col-md-10 col-11 mx-auto mt-sm-5 mt-2 mb-3">
         <h3 className="text-center orange pt-3 mt-md-0 mt-5 fw-bold">Why Use Us?</h3>
-        <p className="black fs-5 fw500 text-center d-block mx-auto col-md-6">
+        <p className="black fs-6 fw500 text-center d-block mx-auto col-md-6">
           At Bahcode, we believe that managing your business should be easy and
           hassle-free. That's why we've designed our platform to be intuitive
           and user-friendly, so you can focus on what you do best - serving your

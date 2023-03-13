@@ -14,7 +14,7 @@ export default function Pricing(params) {
           <h2 className="orange fw-bold mb-0">The world is better</h2>
           <h2 className="blue fw-bold mb-0">without extra fees</h2>
           <div className="my-5 mx-3">
-            <p className="black fs-5 fw500">
+            <p className="black fs-6 fw500">
               At Bahcode, we are committed to providing our users with a
               comprehensive suite of business management tools at no cost.
               That's right - all of our features, including multiple user
@@ -22,7 +22,7 @@ export default function Pricing(params) {
               customer rewards, and periodic performance reports, are completely
               free to use.
             </p>
-            <p className="black fs-5 fw500">
+            <p className="black fs-6 fw500">
               The cost associated with using Bahcode is a small transaction fee
               for every closed order that goes through the system. This fee
               helps us cover the costs of maintaining our platform, providing

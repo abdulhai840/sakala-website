@@ -24,26 +24,26 @@ export default function Help(params) {
               Help & Support
             </h1>
             <br />
-            <p className="black fs-5 fw500">
+            <p className="black fs-6 fw500">
               At Bahcode, we're committed to providing our users with the best
               possible experience. That's why we offer comprehensive help and
               support options to ensure that you always have the help you need,
               when you need it.
             </p>
-            <p className="black fs-5 fw500">
+            <p className="black fs-6 fw500">
               Our support team is available 24/7 to answer your questions,
               troubleshoot issues, and provide guidance on how to make the most
               of our platform. We offer a variety of support channels, including
               email, phone, and live chat, so you can choose the option that
               works best for you.
             </p>
-            <p className="black fs-5 fw500">
+            <p className="black fs-6 fw500">
               In addition to our support team, we also offer a range of
               resources to help you get the most out of Bahcode. This includes a
               comprehensive knowledge base, with articles and tutorials on all
               of our features.
             </p>
-            <p className="black fs-5 fw500">
+            <p className="black fs-6 fw500">
               At Bahcode, we're here to help you succeed. So whether you're just
               getting started or you're a seasoned pro, we're always here to
               support you every step of the way.

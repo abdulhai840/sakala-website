@@ -7,7 +7,7 @@ export default function Navbar({home, about, feature, pricing, help}) {
       <nav className="navbar navbar-expand-lg bg-white shadow-sm fixed-top">
         <div className="container-fluid">
           <div className="d-flex align-items-center cursor" onClick={()=>navigate("/")}>
-            <Logo />
+            <Logo className="ms-md-2" />
             <h6 className="ms-3 orange fw-bold mb-0">BahCode</h6>
           </div>
 

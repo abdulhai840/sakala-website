@@ -21,7 +21,7 @@ export default function Features(params) {
             <h4 className="orange fw-bold">Multiple users with </h4>
             <h4 className="orange fw-bold"> assigned roles</h4>
             <div className="col-md-8 col-12 mx-md-auto mx-lg-1">
-              <p className="black fs-5 fw500 mb-0">
+              <p className="black fs-6 fw500 mb-0">
                 With Bahcode, you can create multiple user accounts with
                 different roles and permissions. This means you can easily
                 assign tasks and responsibilities to your team members, and
@@ -44,7 +44,7 @@ export default function Features(params) {
           <div className={styles["column-33"]}>
             <h4 className="orange fw-bold">Reporting</h4>
             <br />
-            <p className="black fs-5 fw500 mb-0">
+            <p className="black fs-6 fw500 mb-0">
               With Bahcode's reporting features, you can access valuable
               insights into your business performance. This includes data on
               sales, inventory, and customer behavior, as well as customizable
@@ -58,7 +58,7 @@ export default function Features(params) {
           <div className={styles["column-66"]}>
             <h4 className="orange fw-bold">Inventory management</h4>
             <div className="col-md-8 col-12 mx-md-auto mx-lg-1">
-              <p className="black fs-5 fw500 mb-0">
+              <p className="black fs-6 fw500 mb-0">
                 Bahcode's inventory management system makes it easy to keep
                 track of your products. You can view inventory levels in
                 real-time, set up low stock alerts, and track inventory movement
@@ -79,7 +79,7 @@ export default function Features(params) {
           <div className={styles["column-33"]}>
             <h4 className="orange fw-bold">Order management</h4>
             <br />
-            <p className="black fs-5 fw500 mb-0">
+            <p className="black fs-6 fw500 mb-0">
               With Bahcode's order management feature, you can easily accept and
               process orders, move them to checkout, and generate receipts for
               customers. Plus, you can access a history of closed orders to
@@ -94,7 +94,7 @@ export default function Features(params) {
           <div className={styles["column-66"]}>
             <h4 className="orange fw-bold">Customer reward System</h4>
             <div className="col-md-8 col-12 mx-md-auto mx-lg-1">
-              <p className="black fs-5 fw500 mb-0">
+              <p className="black fs-6 fw500 mb-0">
                 With Bahcode's customer reward system, you can create and manage
                 customer loyalty programs that reward your most valuable
                 customers. This includes features like discount codes, referral
@@ -116,7 +116,7 @@ export default function Features(params) {
           <div className={styles["column-33"]}>
             <h4 className="orange fw-bold">Periodic performance Report</h4>
             <br />
-            <p className="black fs-5 fw500 mb-0">
+            <p className="black fs-6 fw500 mb-0">
               Bahcode's periodic performance reports provide you with a snapshot
               of your business performance on a weekly or monthly basis. This
               includes data on sales, inventory, and customer behavior, as well
