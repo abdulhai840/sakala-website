@@ -81,7 +81,7 @@
     height: 55rem;
   }
   .hero-image {
-    height: 26rem;
+    height: 24rem;
   }
   p {
     font-size: x-small !important;
@@ -92,10 +92,10 @@
     height: 40rem;
   }
   p {
-    font-size: 0.875rem !important;
+    font-size: small !important;
   }
   .hero-image {
-    height: 33rem;
+    height: 27rem;
   }
 }
 @media (min-width: 920px) and (max-width: 1180px) {
@@ -103,6 +103,6 @@
     top: 15%;
   }
   p {
-    font-size: 0.875rem !important;
+    font-size: small !important;
   }
 }

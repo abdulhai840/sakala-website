@@ -16,7 +16,7 @@ export default function Features(params) {
     <>
       <Navbar feature={true} />
       <div className={styles["container"]}>
-        <div className="row align-items-center">
+        <div className="row align-items-center mt-5 pt-2">
           <div className={styles["column-66"]}>
             <h4 className="orange fw-bold">Multiple users with </h4>
             <h4 className="orange fw-bold"> assigned roles</h4>
@@ -31,7 +31,7 @@ export default function Features(params) {
             </div>
           </div>
           <div className={styles["column-33"]}>
-            <img src={devices} alt="" className="w-75" />
+            <img src={devices} alt="" className="w-lg-75 w-md-25 w-75" />
           </div>
         </div>
       </div>
