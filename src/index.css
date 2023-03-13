@@ -1,0 +1,150 @@
+* {
+  font-family: "Satoshi", sans-serif !important;
+}
+.orange {
+  color: #d94d0d !important;
+}
+.white {
+  color: white !important;
+}
+.black {
+  color: black !important;
+}
+.gray {
+  color: #757575 !important;
+}
+.blue {
+  color: #324178 !important;
+}
+.cursor {
+  cursor: pointer !important;
+}
+.navbar-nav .nav-link.active {
+  color: #d94d0d !important;
+}
+.nav-link.active {
+  /* border-bottom: 3px solid #d94d0d !important; */
+  font-weight: bold !important;
+  /* margin-left: 0.5rem !important; */
+}
+.textOnInput {
+  position: relative;
+}
+.textOnInput label {
+  position: absolute;
+  top: -15px;
+  left: 2rem;
+  padding: 2px;
+  z-index: 1;
+}
+.textOnInput label:after {
+  content: " ";
+  background-color: #fff;
+  width: 100%;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.form-control {
+  box-shadow: none !important;
+  /* border-radius: 20px !important; */
+}
+.form-select {
+  box-shadow: none !important;
+  /* border-radius: 20px !important; */
+}
+.form-check-input:checked:after {
+  content: none !important;
+}
+.form-check-input[type="checkbox"] {
+  border-radius: 50% !important;
+}
+.form-check-input[type="checkbox"]:checked {
+  background-color: #d94d0d !important;
+}
+.form-check-input[type=radio]:after{
+  display: none !important;
+}
+.form-check-input[type="radio"] {
+  margin-top: 3px !important;
+  height: 0.8rem !important;
+  width: 0.8rem !important;
+}
+.form-check-input[type="radio"]:checked {
+  background-color: #d94d0d !important;
+  margin-top: 3px !important;
+  height: 0.8rem !important;
+  width: 0.8rem !important;
+}
+.form-check-input:checked {
+  border-color: #d94d0d !important;
+}
+.form-control.invalid-input,
+.form-select.invalid-input,
+.react-tel-input .form-control.invalid-input {
+  border: 0.125rem solid red;
+}
+.form-check-label {
+  font-size: small !important;
+  color: #324178 !important;
+  font-weight: 500 !important;
+}
+#role-side-nav .scrollbar-container {
+  height: 100vh !important;
+}
+
+/* #role-side-nav .sidenav-item .sidenav-link:hover {
+  color: white !important;
+  background-color: transparent !important;
+  height: 2rem !important;
+} */
+
+.sidenav-link {
+  height: 2rem !important;
+  padding-left: 0.9rem !important;
+  font-weight: 500 !important;
+  text-decoration: none !important;
+  color: #d94d0d !important;
+}
+#role-side-nav .sidenav-item .sidenav-link:focus {
+  color: white !important;
+  background-color: #324178 !important;
+  height: 2rem !important;
+}
+.datatable.datatable-sm th {
+  font-weight: bold;
+  color: white !important;
+  background: #d94d0d !important;
+  text-align: center !important;
+}
+.datatable.datatable-sm td {
+  color: #626262 !important;
+  font-weight: 400 !important;
+  font-size: 1rem !important;
+  text-align: center !important;
+}
+
+.datatable.datatable-sm th:first-child {
+  border-top-left-radius: 15px !important;
+}
+.datatable.datatable-sm th:last-child {
+  border-top-right-radius: 15px !important;
+}
+.sidenav-backdrop {
+  background: none !important;
+  z-index: -1 !important;
+}
+/* @media (max-width:700px){
+  #role-side-nav{
+    display: none !important;
+  }
+} */

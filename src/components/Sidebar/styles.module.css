@@ -1,0 +1,17 @@
+ 
+.role-side-nav {
+  box-shadow: none !important;
+  z-index: 0 !important;
+  width: 14rem !important;
+
+}
+
+.side-nav-item {
+  font-weight: bold;
+}
+
+.side-nav-link-active {
+  font-weight: bold;
+  color: white !important;
+  background-color: #324178 !important;
+}
