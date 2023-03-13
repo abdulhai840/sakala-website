@@ -40,7 +40,7 @@ export default function Home(params) {
                 operations with Bahcode!
               </p>
               <br />
-              <br />
+              {/* <br /> */}
 
               <button
                 style={{
@@ -56,12 +56,12 @@ export default function Home(params) {
               </button>
             </div>
             <div className="col-md-6 col-12 mx-auto">
-              <img alt="" className="w-100" src={header} />
+              <img alt="" className="w-md-100 w-75 d-block mx-auto" src={header} />
             </div>
           </div>
         </div>
       </div>
-      <div className="col-md-10 col-11 mx-auto mt-sm-5 mt-2 mb-3">
+      <div className="col-md-10 col-11 mx-auto  mt-2 mt-sm-5 mt-md-2 pt-sm-5 pt-md-0 mb-3">
         <h3 className="text-center orange pt-3 mt-md-0 mt-5 fw-bold">Why Use Us?</h3>
         <p className="black fs-6 fw500 text-center d-block mx-auto col-md-6">
           At Bahcode, we believe that managing your business should be easy and

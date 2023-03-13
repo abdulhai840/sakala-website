@@ -24,7 +24,7 @@ export default function Login(params) {
             }
           >
             <Logo className="d-block mx-auto" />
-            <p className="fw-bold blue mt-2">BahCode</p>
+            <p className="fw-bold blue mt-2">Bahcode</p>
             <h6 className="mt-3 orange fw-bold">Sign in</h6>
             <br />
             <div>

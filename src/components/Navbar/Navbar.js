@@ -8,7 +8,7 @@ export default function Navbar({home, about, feature, pricing, help}) {
         <div className="container-fluid">
           <div className="d-flex align-items-center cursor" onClick={()=>navigate("/")}>
             <Logo className="ms-md-2" />
-            <h6 className="ms-3 orange fw-bold mb-0">BahCode</h6>
+            <h6 className="ms-3 orange fw-bold mb-0">Bahcode</h6>
           </div>
 
           <button

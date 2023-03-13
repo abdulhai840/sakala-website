@@ -56,7 +56,7 @@ export default function Sidebar({ type }) {
           style={{ width: "90%", margin: "auto" }}
         >
           <Logo />
-          <h6 className="ms-3 orange fw-bold mb-0">BahCode</h6>
+          <h6 className="ms-3 orange fw-bold mb-0">Bahcode</h6>
         </div>
         <div className="d-flex flex-column justify-content-center w-100">
           <div>

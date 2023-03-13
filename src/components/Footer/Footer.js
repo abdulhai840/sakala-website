@@ -49,7 +49,7 @@ export default function Footer(params) {
           <hr style={{ color: "white", background: "white", height: "3px" }} />
           <div className="d-sm-flex align-items-center justify-content-between">
             <small className="white fw-bold">
-              &#169; {year} BahCode&#174; Inc.
+              &#169; {year} Bahcode&#174; Inc.
             </small>
             <div className="d-flex align-items-center">
               <small className="white me-4 fw-bold">Terms & Conditions</small>
