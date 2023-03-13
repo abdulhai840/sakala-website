@@ -28,17 +28,17 @@ export default function Home(params) {
         <div className={styles["hero-text"]}>
           <div className="row mx-0">
             <div className="col-md-5 col-12 mx-auto mt-5">
-              <h4 className="white">
+              <h4 className="white fw-bold">
                 Bahcode Your all-in-one business solution.
               </h4>
-              <small className="white w-75">
+              <p className="white w-75 fw500">
                 The all-in-one solution for managing your business. Our app and
                 website make it easy to upload products, manage inventory,
                 create coupons, and access analytics. Plus, customers can order
                 products, qualify for coupons, and close transactions with our
                 customer app. Sign up today and simplify your business
                 operations with Bahcode!
-              </small>
+              </p>
               <br />
               <br />
 
@@ -62,8 +62,8 @@ export default function Home(params) {
         </div>
       </div>
       <div className="col-md-10 col-11 mx-auto mt-sm-5 mt-2 mb-3">
-        <h3 className="text-center orange pt-3 fw-bold">Why Use Us?</h3>
-        <p className="gray text-center d-block mx-auto col-md-6">
+        <h3 className="text-center orange pt-3 mt-md-0 mt-5 fw-bold">Why Use Us?</h3>
+        <p className="black fs-5 fw500 text-center d-block mx-auto col-md-6">
           At Bahcode, we believe that managing your business should be easy and
           hassle-free. That's why we've designed our platform to be intuitive
           and user-friendly, so you can focus on what you do best - serving your
@@ -119,7 +119,7 @@ export default function Home(params) {
           <div className="row mx-5 py-5">
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -129,7 +129,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -139,7 +139,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -149,7 +149,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -159,7 +159,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -169,7 +169,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -179,7 +179,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -189,7 +189,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -199,7 +199,7 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
@@ -209,24 +209,14 @@ export default function Home(params) {
             </div>
             <div
               className={
-                " col-lg-2 mx-lg-3 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
+                " col-lg-2 mx-lg-3 col-md-4 col-sm-4 col-6 mx-auto text-center my-3"
               }
             >
               <div className={styles["card"]}>
-                <Supermarket width={85} />
+                <Supermarket width={75} height={85} />
                 <h6 className="orange fw-bold">Fitness centers</h6>
               </div>
             </div>
-            {/* <div
-              className={
-                " col-lg-2 col-md-4 col-sm-5 col-8 mx-auto text-center my-3"
-              }
-            >
-              <div className={styles["card"]}>
-                <Res width={85} />
-                <h6 className="orange fw-bold">Restuarant</h6>
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

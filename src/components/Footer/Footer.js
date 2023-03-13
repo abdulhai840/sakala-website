@@ -42,7 +42,7 @@ export default function Footer(params) {
               </small>
               <div className="mt-3">
                 <h4 className="fw-bold white mb-0">Contact</h4>
-                <small className="white">bahcode@helpcenter.com</small>
+                <small className="white">support@bahcode.com</small>
               </div>
             </div>
           </div>

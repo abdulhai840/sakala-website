@@ -16,6 +16,9 @@
 .blue {
   color: #324178 !important;
 }
+.fw500{
+  font-weight: 500 !important;
+}
 .cursor {
   cursor: pointer !important;
 }
