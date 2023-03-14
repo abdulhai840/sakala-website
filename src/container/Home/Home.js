@@ -29,7 +29,7 @@ export default function Home(params) {
           <div className="row mx-0">
             <div className="col-md-5 col-12 mx-auto mt-5">
               <h4 className="white fw-bold">
-                Bahcode Your all-in-one business solution.
+                Bahcode: Your all-in-one business solution.
               </h4>
               <p className="white w-75 fw500">
                 The all-in-one solution for managing your business. Our app and
