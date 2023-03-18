@@ -2,13 +2,46 @@ import Navbar from "../../components/Navbar/Navbar";
 import help from "../../assests/help.png";
 import { useEffect, useState } from "react";
 import Footer from "../../components/Footer/Footer";
+import {
+  MDBModal,
+  MDBModalBody,
+  MDBModalContent,
+  MDBModalDialog,
+} from "mdb-react-ui-kit";
+import tick from "../../assests/tick.png";
 export default function Help(params) {
   const [firstname, setFirstname] = useState("");
   const [lastname, setLastname] = useState("");
   const [email, setEmail] = useState("");
   const [query, setQuery] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [basicModal, setBasicModal] = useState(false);
   const onSubmit = (e) => {
     e.preventDefault();
+    const data = {
+      firstName: firstname,
+      lastName: lastname,
+      email: email,
+      enquiry: query,
+    };
+    setLoading(true);
+    fetch("http://staging.bahcode.com/api/Enquiry", {
+      method: "POST", // or 'PUT'
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Success:", data);
+        setLoading(false);
+        setBasicModal(true);
+      })
+      .catch((error) => {
+        setLoading(false);
+        console.error("Error:", error);
+      });
   };
   useEffect(() => {
     window.scroll(0, 0);
@@ -118,13 +151,39 @@ export default function Help(params) {
                 width: "8rem",
               }}
               type={"submit"}
+              disabled={loading}
             >
-              Submit
+              {loading ? (
+                <div className="spinner-grow text-light" role="status">
+                  <span className="visually-hidden">Loading...</span>
+                </div>
+              ) : (
+                "Submit"
+              )}
             </button>
           </form>
         </div>
       </div>
       <Footer />
+      {basicModal && (
+        <MDBModal show={basicModal} setShow={setBasicModal} tabIndex="-1">
+          <MDBModalDialog centered>
+            <MDBModalContent>
+              <MDBModalBody>
+                <img src={tick} alt="" className="d-block mx-auto w-25" />
+                <div className="my-3">
+                  <h6 className="black text-center fw-bold">
+                    Query Submitted Successfully!
+                  </h6>
+                  <p className="black text-center mb-0">
+                    Thanks for reaching us we will get back to you soon.
+                  </p>
+                </div>
+              </MDBModalBody>
+            </MDBModalContent>
+          </MDBModalDialog>
+        </MDBModal>
+      )}
     </>
   );
 }
