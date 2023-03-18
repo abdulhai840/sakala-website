@@ -56,7 +56,7 @@ export default function Home(params) {
               </button>
             </div>
             <div className="col-md-6 col-12 mx-auto">
-              <img alt="" className="w-md-100 w-75 d-block mx-auto" src={header} />
+              <img alt="" className="w-100 d-block mx-auto" src={header} />
             </div>
           </div>
         </div>
