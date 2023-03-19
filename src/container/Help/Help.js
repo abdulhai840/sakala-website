@@ -28,9 +28,9 @@ export default function Help(params) {
     setLoading(true);
     fetch("http://staging.bahcode.com/api/Enquiry", {
       method: "POST", // or 'PUT'
-      headers: {
-        "Content-Type": "application/json",
-      },
+      // headers: {
+      //   "Content-Type": "application/json",
+      // },
       body: JSON.stringify(data),
     })
       .then((response) => response.json())
