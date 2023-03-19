@@ -63,11 +63,9 @@ export default function Pricing(params) {
             </div>
             <hr />
             <div className="d-flex align-items-center justify-content-between my-3">
-              {/* <h6 className="blue">Every Transaction entered into the app</h6>
-              <h6 className="orange ">1.5%</h6> */}
               <small className="gray">
-                A platform fee is charged of less that 1% with a maximum
-                predefined value for each transaction entered into the app
+                A platform fee of 0.5%, or a maximum predefined value of 100,
+                for each transaction entered into the platform applies.
               </small>
             </div>
           </div>

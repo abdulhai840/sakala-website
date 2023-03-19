@@ -16,6 +16,7 @@ export default function Help(params) {
   const [query, setQuery] = useState("");
   const [loading, setLoading] = useState(false);
   const [basicModal, setBasicModal] = useState(false);
+  const [open, setOpen] = useState(false);
   const onSubmit = (e) => {
     e.preventDefault();
     const data = {
@@ -36,7 +37,12 @@ export default function Help(params) {
       .then((data) => {
         console.log("Success:", data);
         setLoading(false);
+        setOpen(true);
         setBasicModal(true);
+        setTimeout(() => {
+          setBasicModal(false);
+          setOpen(false);
+        }, 3000);
       })
       .catch((error) => {
         setLoading(false);
@@ -46,6 +52,8 @@ export default function Help(params) {
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
+  console.log("open", open);
+  console.log("basic", basicModal);
   return (
     <>
       <Navbar help={true} />
@@ -165,7 +173,7 @@ export default function Help(params) {
         </div>
       </div>
       <Footer />
-      {basicModal && (
+      {!!open && (
         <MDBModal show={basicModal} setShow={setBasicModal} tabIndex="-1">
           <MDBModalDialog centered>
             <MDBModalContent>

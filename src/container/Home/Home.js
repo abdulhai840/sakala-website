@@ -12,7 +12,6 @@ import { ReactComponent as Stores } from "../../assests/stores.svg";
 import { ReactComponent as Supermarket } from "../../assests/supermarket.svg";
 import { ReactComponent as Pharmacies } from "../../assests/pharmacies.svg";
 import { ReactComponent as Salons } from "../../assests/salons.svg";
-import { ReactComponent as Fitness } from "../../assests/fitness.svg";
 import { ReactComponent as Hotels } from "../../assests/hotels.svg";
 import { ReactComponent as Bars } from "../../assests/bars.svg";
 import Footer from "../../components/Footer/Footer";
@@ -29,15 +28,19 @@ export default function Home(params) {
           <div className="row mx-0">
             <div className="col-md-5 col-12 mx-auto mt-5">
               <h4 className="white fw-bold">
-                Bahcode: Your all-in-one business solution.
+                Bahcode: Your all-in-one business solution
               </h4>
               <p className="white w-75 fw500">
                 The all-in-one solution for managing your business. Our app and
                 website make it easy to upload products, manage inventory,
                 create coupons, and access analytics. Plus, customers can order
                 products, qualify for coupons, and close transactions with our
-                customer app. Sign up today and simplify your business
-                operations with Bahcode!
+                customer app.
+                <p className="my-3">
+                  Sign up today and simplify your business
+                operations with Bahcode!
+                </p>
+                
               </p>
               <br />
               {/* <br /> */}
@@ -62,7 +65,9 @@ export default function Home(params) {
         </div>
       </div>
       <div className="col-md-10 col-11 mx-auto  mt-2 mt-sm-5 mt-md-2 pt-sm-5 pt-md-0 mb-3">
-        <h3 className="text-center orange pt-3 mt-md-0 mt-5 fw-bold">Why Use Us?</h3>
+        <h3 className="text-center orange pt-3 mt-md-0 mt-5 fw-bold">
+          Why Use Us?
+        </h3>
         <p className="black fs-6 fw500 text-center d-block mx-auto col-md-6">
           At Bahcode, we believe that managing your business should be easy and
           hassle-free. That's why we've designed our platform to be intuitive
