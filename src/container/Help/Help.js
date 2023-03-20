@@ -26,11 +26,11 @@ export default function Help(params) {
       enquiry: query,
     };
     setLoading(true);
-    fetch("http://staging.bahcode.com/api/Enquiry", {
+    fetch("https://staging.bahcode.com/api/Enquiry", {
       method: "POST", // or 'PUT'
-      // headers: {
-      //   "Content-Type": "application/json",
-      // },
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify(data),
     })
       .then((response) => response.json())
@@ -46,14 +46,18 @@ export default function Help(params) {
       })
       .catch((error) => {
         setLoading(false);
+        setOpen(true);
+        setBasicModal(true);
+        setTimeout(() => {
+          setBasicModal(false);
+          setOpen(false);
+        }, 3000);
         console.error("Error:", error);
       });
   };
   useEffect(() => {
     window.scroll(0, 0);
   }, []);
-  console.log("open", open);
-  console.log("basic", basicModal);
   return (
     <>
       <Navbar help={true} />
