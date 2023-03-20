@@ -43,6 +43,10 @@ export default function Help(params) {
           setBasicModal(false);
           setOpen(false);
         }, 3000);
+        setFirstname("");
+        setLastname("");
+        setEmail("");
+        setQuery("");
       })
       .catch((error) => {
         setLoading(false);
@@ -52,6 +56,10 @@ export default function Help(params) {
           setBasicModal(false);
           setOpen(false);
         }, 3000);
+        setFirstname("");
+        setLastname("");
+        setEmail("");
+        setQuery("");
         console.error("Error:", error);
       });
   };
